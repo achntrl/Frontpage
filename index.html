@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>chrisyou's frontpage</title>
+    <title>frontpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
     <meta name="theme-color" content="#222">
+    <script src="jquery.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="container">
@@ -32,6 +33,9 @@
           <li>
             <a href="https://calendar.google.com/calendar/"><img src="images/calendar.png" class="icon" alt="" /><span class="link-text">Google Calendar</span></a>
           </li>
+          <li>
+            <a href="https://www.messenger.com/"><img src="images/messenger.png" class="icon" alt="" /><span class="link-text">Messenger</span></a>
+          </li>
         <ul>
       </div>
       <div class="list uni">
@@ -50,6 +54,9 @@
           </li>
           <li>
             <a href="https://www.wolframalpha.com/"><img class="icon" src="images/equal.png" alt=""/><span class="link-text">Wolfram|Alpha</span></a>
+          </li>
+          <li>
+            <a href="https://ei.rub.de/"><img class="icon" src="images/etit.png" alt=""/><span class="link-text">ET/IT-Faculty</span></a>
           </li>
         </ul>
       </div>
@@ -70,6 +77,9 @@
           <li>
             <a href="https://www.google.com/search?q=weather"><img src="images/cloudy.png" class="icon" alt="" /><span class="link-text">Google Weather</span></a>
           </li>
+          <li>
+            <a href="https://www.tagesschau.de"><img src="images/tagessschau.png" class="icon" alt="" /><span class="link-text">tagesschau</span></a>
+          </li>
         </ul>
       </div>
       <div class="list entertainment">
@@ -89,6 +99,9 @@
           <li>
             <a href="http://www.zdf.de/ZDFmediathek"><img src="images/zdf.png" class="icon" alt="" /><span class="link-text">ZDF Mediathek</span></a>
           </li>
+          <li>
+            <a href="http://www.ardmediathek.de/tv"><img src="images/daserste.png" class="icon" alt="" /><span class="link-text">ARD Mediathek</span></a>
+          </li>
         </ul>
       </div>
       <div class="list gaming">
@@ -97,7 +110,7 @@
         </div>
         <ul>
           <li>
-            <a href="https://www.twitch.tv/"><img src="images/twitch.png" class="icon" alt="" /><span class="link-text">Twitch</span></a>
+            <a href="https://www.twitch.tv/"><img src="images/twitch.png" class="icon" alt="" /><span class="link-text">Twitch</span><!--<span class="notify-badge">23</span>--></a>
           </li>
           <li>
             <a href="https://steamcommunity.com/"><img src="images/steam.png" class="icon" alt="" /><span class="link-text">Steam</span></a>
@@ -112,7 +125,7 @@
       </div>
       <div class="list personal">
         <div class="list personal header">
-          <img src="images/personal.png" class="hicon" alt="" /><h1>Personal</h1>
+          <img src="images/personal.png" class="hicon" alt="" /><h1>Personal & Shops</h1>
         </div>
         <ul>
           <li>
@@ -125,10 +138,57 @@
             <a href="https://mail.ruhr-uni-bochum.de/mail/"><img src="images/mail.png" class="icon" alt="" /><span class="link-text">RUB Mail</span></a>
           </li>
           <li>
+            <a href="https://www.amazon.de/"><img src="images/amazon.png" class="icon" alt="" /><span class="link-text">Amazon</span></a>
+          </li>
+          <li>
+            <a href="https://www.zalando.de/"><img src="images/zalando.png" class="icon" alt="" /><span class="link-text">Zalando</span></a>
+          </li>
+          <!--  -->
+        </ul>
+      </div>
+      <!-- <div class="list work">
+        <div class="list work header">
+          <img src="images/desk.png" class="hicon" alt="" /><h1>Work</h1>
+        </div>
+        <ul>
+          <li>
+            <a href="https://github.com/"><img src="images/github.png" class="icon" alt="" /><span class="link-text">Github</span></a>
+          </li>
+        </ul>
+      </div> -->
+      <div class="list travel">
+        <div class="list travel header">
+          <img src="images/car.png" class="hicon" alt="" /><h1>Travel</h1>
+        </div>
+        <ul>
+          <li>
+            <a href="https://www.bahn.de/p/view/index.shtml"><img src="images/DB.png" class="icon" alt="" /><span class="link-text">Deutsche Bahn</span></a>
+          </li>
+          <li>
+            <a href="http://vrr.de/de/"><img src="images/vrr.png" class="icon" alt="" /><span class="link-text">VRR</span></a>
+          </li>
+          <li>
+            <a href="https://www.google.de/flights/?f=0"><img src="images/airplane.png" class="icon" alt="" /><span class="link-text">Google Flights</span></a>
+          </li>
+          <li>
             <a href="https://maps.google.com"><img src="images/gmaps.png" class="icon" alt="" /><span class="link-text">Google Maps</span></a>
           </li>
         </ul>
       </div>
     </div>
+    <div class="expandable">
+      <img src="images/ellipsis.png" alt="" id="expand" />
+      <div class="section expandable hidden" id="hidden">
+        <div class="expanded twitch" id="twitch">
+          <div class="expanded twitch header">
+            <img src="images/twitch.png" class="hicon" alt="" />
+            <!-- <h1>Live</h1> -->
+          </div>
+          <ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="Twitch.js" charset="utf-8"></script>
   </body>
 </html>
