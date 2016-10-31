@@ -1,0 +1,38 @@
+<svg version="1.1" id="Clover" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+  <path fill="none" stroke="#006600" stroke-width="37.5776" stroke-miterlimit="10" d="M93.7 98.6c0-25.8 83.8-61.1 123.7 85.3 0 0-127.8 24.9-145.4-3.7s46-44.8 46-55S93.7 124.4 93.7 98.6z"/>
+  <path fill="none" stroke="#A4CF88" stroke-width="14.0916" stroke-miterlimit="10" d="M93.7 98.6c0-25.8 83.8-61.1 123.7 85.3 0 0-127.8 24.9-145.4-3.7s46-44.8 46-55S93.7 124.4 93.7 98.6z"/>
+  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="143.1424" y1="192" x2="143.1424" y2="77.7196">
+    <stop offset="0" stop-color="#298122"/>
+    <stop offset="0.2857" stop-color="#016701"/>
+    <stop offset="0.2858" stop-color="#44942E"/>
+    <stop offset="1" stop-color="#85BF5A"/>
+  </linearGradient>
+  <path fill="url(#SVGID_1_)" d="M93.7 98.6c0-25.8 83.8-61.1 123.7 85.3 0 0-127.8 24.9-145.4-3.7s46-44.8 46-55S93.7 124.4 93.7 98.6z"/>
+  <path fill="none" stroke="#006600" stroke-width="37.5776" stroke-miterlimit="10" d="M405.4 85.9c25.8 0 61.1 83.8-85.3 123.7 0 0-24.9-127.8 3.7-145.4 28.6-17.6 44.8 46 55 46S379.5 85.9 405.4 85.9z"/>
+  <path fill="none" stroke="#A4CF88" stroke-width="14.0916" stroke-miterlimit="10" d="M405.4 85.9c25.8 0 61.1 83.8-85.3 123.7 0 0-24.9-127.8 3.7-145.4 28.6-17.6 44.8 46 55 46S379.5 85.9 405.4 85.9z"/>
+  <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="369.3906" y1="192" x2="369.3906" y2="77.7196">
+    <stop offset="0" stop-color="#298122"/>
+    <stop offset="0.2857" stop-color="#016701"/>
+    <stop offset="0.2858" stop-color="#44942E"/>
+    <stop offset="1" stop-color="#85BF5A"/>
+  </linearGradient>
+  <path fill="url(#SVGID_2_)" d="M405.4 85.9c25.8 0 61.1 83.8-85.3 123.7 0 0-24.9-127.8 3.7-145.4 28.6-17.6 44.8 46 55 46S379.5 85.9 405.4 85.9z"/>
+  <path fill="none" stroke="#006600" stroke-width="37.5776" stroke-miterlimit="10" d="M414 414.4c-1.6 25.8-87.3 55.9-118.3-92.7 0 0 129.1-17.1 144.9 12.5 15.9 29.6-48.6 42-49.2 52.1C390.8 396.6 415.5 388.7 414 414.4z"/>
+  <path fill="none" stroke="#A4CF88" stroke-width="14.0916" stroke-miterlimit="10" d="M414 414.4c-1.6 25.8-87.3 55.9-118.3-92.7 0 0 129.1-17.1 144.9 12.5 15.9 29.6-48.6 42-49.2 52.1C390.8 396.6 415.5 388.7 414 414.4z"/>
+  <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="369.3906" y1="413" x2="369.3906" y2="316.9167">
+    <stop offset="0" stop-color="#298122"/>
+    <stop offset="0.2857" stop-color="#016701"/>
+    <stop offset="0.2858" stop-color="#44942E"/>
+    <stop offset="1" stop-color="#85BF5A"/>
+  </linearGradient>
+  <path fill="url(#SVGID_3_)" d="M414 414.4c-1.6 25.8-87.3 55.9-118.3-92.7 0 0 129.1-17.1 144.9 12.5 15.9 29.6-48.6 42-49.2 52.1C390.8 396.6 415.5 388.7 414 414.4z"/>
+  <path fill="none" stroke="#006600" stroke-width="37.5776" stroke-miterlimit="10" d="M124.6 433.8c-25.7 2.8-69.7-76.7 71.6-132.1 0 0 38.4 124.4 11.9 145s-49.5-40.9-59.6-39.8S150.3 431.1 124.6 433.8z"/>
+  <path fill="none" stroke="#A4CF88" stroke-width="14.0916" stroke-miterlimit="10" d="M124.6 433.8c-25.7 2.8-69.7-76.7 71.6-132.1 0 0 38.4 124.4 11.9 145s-49.5-40.9-59.6-39.8S150.3 431.1 124.6 433.8z"/>
+  <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="157.3587" y1="413" x2="157.3587" y2="316.9167">
+    <stop offset="0" stop-color="#298122"/>
+    <stop offset="0.2857" stop-color="#016701"/>
+    <stop offset="0.2858" stop-color="#44942E"/>
+    <stop offset="1" stop-color="#85BF5A"/>
+  </linearGradient>
+  <path fill="url(#SVGID_4_)" d="M124.6 433.8c-25.7 2.8-69.7-76.7 71.6-132.1 0 0 38.4 124.4 11.9 145s-49.5-40.9-59.6-39.8S150.3 431.1 124.6 433.8z"/>
+</svg>

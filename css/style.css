@@ -1,7 +1,9 @@
 body {
   margin: 0;
-  background: #ECF0F1;
+  background: #f8f8f2;
   /*background: #222;*/
+  font-family:"Roboto","Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin:0;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -12,8 +14,9 @@ body::-webkit-scrollbar {
   margin-bottom: 20px;
 }
 .google {
-  margin: -50px auto -20px;
-  height: 200px;
+  margin: 20px auto 20px;
+  max-height: 200px;
+  max-width: 300px;
 }
 .icon {
   max-width: 32px;
@@ -58,25 +61,22 @@ a {
   padding: 0;
 }
 .list ul li {
-  background: #ECF0F1;
+  background: #f8f8f2;
   height: 40px;
-  color: #ECF0F1;
+  color: #f8f8f2;
   line-height: 40px;
 }
-.list.social ul li:hover,.list.gaming ul li:hover, .list.travel ul li:hover {
-  background: #FBBC05;
+.list.social ul li:hover,.list.google ul li:hover, .list.travel ul li:hover, .list.ricing ul li:hover,
+.list.personal ul li:hover,.list.work ul li:hover, .list.news ul li:hover, .list.entertainment ul li:hover{
+  background: #282a36;
+  color: #fff;
 }
-.list.uni ul li:hover,.list.personal ul li:hover,.list.work ul li:hover {
-  background: #EA4335;
+.list.social ul li:hover .link-text,.list.google ul li:hover .link-text, .list.travel ul li:hover .link-text, .list.ricing ul li:hover .link-text,
+.list.personal ul li:hover .link-text,.list.work ul li:hover .link-text, .list.news ul li:hover .link-text, .list.entertainment ul li:hover .link-text{
+  color: #fff;
 }
-/*34A853*/
-.list.news ul li:hover {
-  background: #34A853;
-}
-/*4285F4*/
-.list.entertainment ul li:hover {
-  background: #4285F4;
-}
+
+
 .list ul li a {
   position: relative;
   padding-left: 15px;
@@ -90,8 +90,9 @@ a {
   margin-top: -4px;
   margin-left: 20px;
 }
+
 .list ul li:nth-child(2n) {
-  background: #ECF0F1;
+  background: #f8f8f2;
 }
 .header{
   margin: 0;
@@ -99,7 +100,7 @@ a {
 .list h1 {
   position: absolute;
   display: inline-block;
-  color: #eee;
+  color: #fff;
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -107,16 +108,16 @@ a {
   font-size: 20px;
   font-weight: 400; }
 .list.social.header,.list.personal.header {
-  background: #4285F4;
+  background: #282a36;
 }
-.list.uni.header,.list.gaming.header, .list.work.header{
-  background: #34A853;
+.list.ricing.header,.list.google.header, .list.work.header{
+  background: #282a36;
 }
 .list.news.header {
-  background: #FBBC05;
+  background: #282a36;
 }
 .list.entertainment.header, .list.travel.header{
-  background: #EA4335;
+  background: #282a36;
 }
 .hicon {
   max-width: 32px;
