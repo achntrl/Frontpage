@@ -66,12 +66,12 @@ a {
   color: #f8f8f2;
   line-height: 40px;
 }
-.list.social ul li:hover,.list.google ul li:hover, .list.travel ul li:hover, .list.ricing ul li:hover,
+.list.social ul li:hover,.list.google-apps ul li:hover, .list.travel ul li:hover, .list.ricing ul li:hover,
 .list.personal ul li:hover,.list.work ul li:hover, .list.news ul li:hover, .list.entertainment ul li:hover{
   background: #282a36;
   color: #fff;
 }
-.list.social ul li:hover .link-text,.list.google ul li:hover .link-text, .list.travel ul li:hover .link-text, .list.ricing ul li:hover .link-text,
+.list.social ul li:hover .link-text,.list.google-apps ul li:hover .link-text, .list.travel ul li:hover .link-text, .list.ricing ul li:hover .link-text,
 .list.personal ul li:hover .link-text,.list.work ul li:hover .link-text, .list.news ul li:hover .link-text, .list.entertainment ul li:hover .link-text{
   color: #fff;
 }
@@ -110,7 +110,7 @@ a {
 .list.social.header,.list.personal.header {
   background: #282a36;
 }
-.list.ricing.header,.list.google.header, .list.work.header{
+.list.ricing.header,.list.google-apps.header, .list.work.header{
   background: #282a36;
 }
 .list.news.header {
