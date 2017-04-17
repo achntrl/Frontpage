@@ -34,7 +34,9 @@ function failedConnectionHandler() {
 function populateCities() {
   var cityObject = getCityList();
   for (var city in cityObject) {
-    document.getElementById("city-dropdown").innerHTML += "<p class=\"city-item\">"+city+"<\p>"
+    if (city){
+      document.getElementById("city-dropdown").innerHTML += "<div class=\"city-item\">"+city
+    }
   }
 }
 
