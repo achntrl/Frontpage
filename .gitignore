@@ -5,3 +5,4 @@
 /node_modules/
 /.brackets.json
 .DS_Store
+API_KEY.js

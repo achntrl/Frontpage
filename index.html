@@ -5,16 +5,18 @@
     <title>frontpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/weather-icons.min.css">
     <meta name="theme-color" content="#222">
     <script src="jquery.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="container">
-      <a href="http://google.com"><img class="google" src="images/google.svg" alt="" /></a>
-      <form class="" action="http://www.google.com/search" method="get">
-        <input class="textbox" autocomplete="on" maxlength="60" autofocus type="text" onEnter="send()" name="q" placeholder="Search">
-      </form>
+      <div id="page-wrapper">
+        <p id="weather-text"><i id="weather-icon" class="wi"></i></p>
+      </div>
     </div>
+    <script src="API_KEY.js" charset="utf-8"></script>
+    <script src="weather.js" charset="utf-8"></script>
     <div class="section">
       <div class="list social">
         <div class="list social header">
